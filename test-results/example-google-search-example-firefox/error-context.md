@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "Gmail":
+    - /url: https://mail.google.com/mail/&ogbl
+  - link "Search for Images":
+    - /url: https://www.google.com/imghp?hl=en&ogbl
+    - text: Images
+  - button "Google apps":
+    - img
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+- img
+- search:
+  - img
+  - combobox "Search"
+  - button "Search by voice":
+    - img
+  - button "Search by image":
+    - img
+  - button "Google Search"
+  - button "I'm Feeling Lucky"
+- text: "Google offered in:"
+- link "Afrikaans":
+  - /url: https://www.google.com/setprefs?sig=0_-EagU6AX4MX1DBTsk7o7GerVzPc%3D&hl=af&source=homepage&sa=X&ved=0ahUKEwjTv_WgjM6OAxU0UUEAHWqMImgQ2ZgBCBU
+- link "Sesotho":
+  - /url: https://www.google.com/setprefs?sig=0_-EagU6AX4MX1DBTsk7o7GerVzPc%3D&hl=st&source=homepage&sa=X&ved=0ahUKEwjTv_WgjM6OAxU0UUEAHWqMImgQ2ZgBCBY
+- link "isiZulu":
+  - /url: https://www.google.com/setprefs?sig=0_-EagU6AX4MX1DBTsk7o7GerVzPc%3D&hl=zu&source=homepage&sa=X&ved=0ahUKEwjTv_WgjM6OAxU0UUEAHWqMImgQ2ZgBCBc
+- link "IsiXhosa":
+  - /url: https://www.google.com/setprefs?sig=0_-EagU6AX4MX1DBTsk7o7GerVzPc%3D&hl=xh&source=homepage&sa=X&ved=0ahUKEwjTv_WgjM6OAxU0UUEAHWqMImgQ2ZgBCBg
+- link "Setswana":
+  - /url: https://www.google.com/setprefs?sig=0_-EagU6AX4MX1DBTsk7o7GerVzPc%3D&hl=tn&source=homepage&sa=X&ved=0ahUKEwjTv_WgjM6OAxU0UUEAHWqMImgQ2ZgBCBk
+- link "Northern Sotho":
+  - /url: https://www.google.com/setprefs?sig=0_-EagU6AX4MX1DBTsk7o7GerVzPc%3D&hl=nso&source=homepage&sa=X&ved=0ahUKEwjTv_WgjM6OAxU0UUEAHWqMImgQ2ZgBCBo
+- contentinfo:
+  - text: South Africa
+  - link "About":
+    - /url: https://about.google/?utm_source=google-ZA&utm_medium=referral&utm_campaign=hp-footer&fg=1
+  - link "Advertising":
+    - /url: https://www.google.com/intl/en_za/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+  - link "Business":
+    - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+  - link "How Search works":
+    - /url: https://google.com/search/howsearchworks/?fg=1
+  - link "Applying AI towards science and the environment":
+    - /url: https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer
+  - link "Privacy":
+    - /url: https://policies.google.com/privacy?hl=en-ZA&fg=1
+  - link "Terms":
+    - /url: https://policies.google.com/terms?hl=en-ZA&fg=1
+  - button "Settings"
+```
